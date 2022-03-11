@@ -11,13 +11,19 @@ Función que recibe 3 parámetros (a, b y c),
 y en c almacena el valor de la suma de a más b.
 */
 
-void suma(int a, int b, int * c) {
+void suma(int a, int b, int * c)
+{
+   *c=a+b;
+   printf("%d",c);
+}
+
+
     
 
 /*
 Esta función suma los N primeros números del arreglo a
 */
-int sumaN(int a[], int N) {
+   int sumaN(int a[], int N) {
     int i;
     int tot = 0;
 
@@ -35,8 +41,14 @@ arreglo a y almacena el resultado en *suma.
 Utilice la función sumaN.
 */
 
-void sumaNultimos(int a[], int n, int m, int * suma) {
+void sumaNultimos(int a[], int n, int m, int * suma) 
+{
+   *suma= 
+   int j ;
+   for (j = (m-n); j < n; j++)
+   {
 
+   }
 }
 
 /*
@@ -79,7 +91,8 @@ Ejercicio 5a.
 Programe la función void asignarValor(Vector * v, int i, int valor), 
 la cual asigna el valor a la posición i del vector v.
 */
-void asignarValor(Vector * v, int i, int valor) {
+void asignarValor(Vector * v, int i, int valor)
+{
 
 }
 

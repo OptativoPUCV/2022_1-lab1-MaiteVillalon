@@ -1,1 +1,20 @@
 
+vi., 11 de mar. de 2022 16:33:09: 
+ exercises.c | 19 ++++++++++++++++---
+ 1 file changed, 16 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'suma':
+exercises.c:17:13: error: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Werror=format=]
+    printf("%d",c);
+             ^
+exercises.c: In function 'sumaNultimos':
+exercises.c:47:4: error: expected expression before 'int'
+    int j ;
+    ^~~
+exercises.c:48:9: error: 'j' undeclared (first use in this function)
+    for (j = (m-n); j < n; j++)
+         ^
+exercises.c:48:9: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+40ad0c8
