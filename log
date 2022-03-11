@@ -149,3 +149,32 @@ vi., 11 de mar. de 2022 18:24:25:
  tests:  2|5
 total_score: 20/70
 b44a6f0
+vi., 11 de mar. de 2022 18:36:10: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:66:30: error: expected expression before 'Persona'
+    Persona *personaNueva = (*Persona) malloc(sizeof(Persona));
+                              ^~~~~~~
+exercises.c:66:39: error: expected ',' or ';' before 'malloc'
+    Persona *personaNueva = (*Persona) malloc(sizeof(Persona));
+                                       ^~~~~~
+exercises.c:69:11: error: passing argument 1 of 'strcpy' makes pointer from integer without a cast [-Werror=int-conversion]
+    strcpy(original.edad, personaNueva->edad);
+           ^~~~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:79:40: note: expected 'char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+In file included from test.c:5:0:
+exercises.c:69:26: error: passing argument 2 of 'strcpy' makes pointer from integer without a cast [-Werror=int-conversion]
+    strcpy(original.edad, personaNueva->edad);
+                          ^~~~~~~~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:79:40: note: expected 'const char *' but argument is of type 'int'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5e14346
