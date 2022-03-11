@@ -103,3 +103,26 @@ vi., 11 de mar. de 2022 17:38:26:
  tests:  2|5
 total_score: 20/70
 f7a6303
+vi., 11 de mar. de 2022 18:23:30: 
+ exercises.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:46:4: error: invalid operands to binary * (have 'int' and 'int *')
+    int j = (n - m)
+            ~~~~~~~
+    *suma=sumaN(a + j, m);
+    ^
+exercises.c: In function 'crearPersona':
+exercises.c:65:30: error: expected expression before 'Persona'
+    Persona *personaNueva = (*Persona) malloc(sizeof(Persona));
+                              ^~~~~~~
+exercises.c:65:39: error: expected ',' or ';' before 'malloc'
+    Persona *personaNueva = (*Persona) malloc(sizeof(Persona));
+                                       ^~~~~~
+exercises.c:65:13: error: unused variable 'personaNueva' [-Werror=unused-variable]
+    Persona *personaNueva = (*Persona) malloc(sizeof(Persona));
+             ^~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5d38361
