@@ -44,3 +44,9 @@ exercises.c:47:9: error: 'j' undeclared (first use in this function)
 exercises.c:47:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 9cec9a2
+vi., 11 de mar. de 2022 16:35:12: 
+ exercises.c | 5 -----
+ 1 file changed, 5 deletions(-)
+ tests:  1|6
+total_score: 10/70
+1f23787
