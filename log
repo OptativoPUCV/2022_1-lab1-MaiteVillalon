@@ -32,3 +32,15 @@ exercises.c:47:9: error: 'j' undeclared (first use in this function)
 exercises.c:47:9: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 62ffb58
+vi., 11 de mar. de 2022 16:34:55: 
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:46:4: error: expected expression before 'int'
+    int j ;
+    ^~~
+exercises.c:47:9: error: 'j' undeclared (first use in this function)
+    for (j = (m-n); j < n; j++)
+         ^
+exercises.c:47:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+9cec9a2
