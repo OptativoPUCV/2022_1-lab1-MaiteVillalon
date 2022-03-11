@@ -256,3 +256,21 @@ vi., 11 de mar. de 2022 18:49:47:
  tests:  3|4
 total_score: 30/70
 e5e52a8
+vi., 11 de mar. de 2022 18:59:46: 
+ exercises.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:89:24: error: 'vector' undeclared (first use in this function)
+    int *vectorNuevo = (vector*) malloc(n*sizeof(vector));
+                        ^~~~~~
+exercises.c:89:24: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:89:31: error: expected expression before ')' token
+    int *vectorNuevo = (vector*) malloc(n*sizeof(vector));
+                               ^
+exercises.c:90:11: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+    return vectorNuevo;
+           ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5d72ac7
