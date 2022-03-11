@@ -143,3 +143,9 @@ exercises.c:65:13: error: unused variable 'personaNueva' [-Werror=unused-variabl
 cc1.exe: all warnings being treated as errors
 Compilation failed
 cd22b4a
+vi., 11 de mar. de 2022 18:24:25: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|5
+total_score: 20/70
+b44a6f0
