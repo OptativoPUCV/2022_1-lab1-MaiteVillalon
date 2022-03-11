@@ -288,3 +288,9 @@ exercises.c:90:11: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 06131ab
+vi., 11 de mar. de 2022 19:02:54: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+4d1762a
