@@ -80,3 +80,14 @@ vi., 11 de mar. de 2022 17:02:13:
  tests:  1|6
 total_score: 10/70
 40f0327
+vi., 11 de mar. de 2022 17:37:09: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:45:8: error: unused variable 'j' [-Werror=unused-variable]
+    int j=n-m;
+        ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+950d5fb
