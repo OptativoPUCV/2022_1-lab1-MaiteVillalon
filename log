@@ -18,3 +18,17 @@ exercises.c:48:9: note: each undeclared identifier is reported only once for eac
 cc1.exe: all warnings being treated as errors
 Compilation failed
 40ad0c8
+vi., 11 de mar. de 2022 16:34:16: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:46:4: error: expected expression before 'int'
+    int j ;
+    ^~~
+exercises.c:47:9: error: 'j' undeclared (first use in this function)
+    for (j = (m-n); j < n; j++)
+         ^
+exercises.c:47:9: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+62ffb58
