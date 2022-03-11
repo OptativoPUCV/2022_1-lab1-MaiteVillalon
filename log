@@ -91,3 +91,9 @@ exercises.c:45:8: error: unused variable 'j' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 950d5fb
+vi., 11 de mar. de 2022 17:37:25: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+07ee281
