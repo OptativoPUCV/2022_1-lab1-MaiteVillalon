@@ -274,3 +274,17 @@ exercises.c:90:11: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 5d72ac7
+vi., 11 de mar. de 2022 19:00:42: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:89:23: error: initialization from incompatible pointer type [-Werror=incompatible-pointer-types]
+    int *vectorNuevo = (Vector*) malloc(n*sizeof(Vector));
+                       ^
+exercises.c:90:11: error: return from incompatible pointer type [-Werror=incompatible-pointer-types]
+    return vectorNuevo;
+           ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+06131ab
