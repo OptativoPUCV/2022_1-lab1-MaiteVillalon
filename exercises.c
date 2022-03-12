@@ -87,8 +87,16 @@ typedef struct {
 
 Vector * crearVector(int n)
 {
-   Vector *vectorNuevo = (Vector*) calloc(n,sizeof(Vector));
-   return vectorNuevo;
+   Vector variable;
+   n= variable.capacidad;
+   Vector 
+   
+   //Vector *vectorNuevo = (Vector*) calloc(n,sizeof(Vector));
+   //vectorNuevo->capacidad = n;
+
+   
+
+   return variable;
 }
 
 /*
@@ -98,7 +106,7 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor)
 {
-
+   v(i)=valor;
 }
 
 /*
