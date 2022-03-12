@@ -90,7 +90,7 @@ Vector * crearVector(int n)
    Vector *vectorNuevo = (Vector*) calloc(n,sizeof(Vector));
    
 
-   return NULL;
+   return vectorNuevo;
 }
 
 /*
