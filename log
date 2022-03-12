@@ -485,3 +485,16 @@ sá., 12 de mar. de 2022 16:08:34:
  tests:  4|3
 total_score: 40/70
 e8da0dc
+sá., 12 de mar. de 2022 16:16:05: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:107:12: error: 'v' redeclared as different kind of symbol
+    Vector *v= NULL;
+            ^
+exercises.c:105:28: note: previous definition of 'v' was here
+ void asignarValor(Vector * v, int i, int valor)
+                            ^
+Compilation failed
+816f941
