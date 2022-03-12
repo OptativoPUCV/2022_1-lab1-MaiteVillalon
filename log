@@ -358,3 +358,26 @@ exercises.c:100:1: error: control reaches end of non-void function [-Werror=retu
 cc1.exe: all warnings being treated as errors
 Compilation failed
 69a6c00
+sá., 12 de mar. de 2022 12:19:20: 
+ exercises.c | 7 -------
+ 1 file changed, 7 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:92:11: error: 'variable' undeclared (first use in this function)
+    return variable;
+           ^~~~~~~~
+exercises.c:92:11: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c: In function 'asignarValor':
+exercises.c:102:4: error: called object 'v' is not a function or function pointer
+    v(i)=valor;
+    ^
+exercises.c:100:28: note: declared here
+ void asignarValor(Vector * v, int i, int valor)
+                            ^
+exercises.c: In function 'crearVector':
+exercises.c:93:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c7bcce7
