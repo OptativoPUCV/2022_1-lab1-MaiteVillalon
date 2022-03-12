@@ -469,3 +469,8 @@ exercises.c:91:23: error: 'variable' is used uninitialized in this function [-We
 cc1.exe: all warnings being treated as errors
 Compilation failed
 c330de9
+sá., 12 de mar. de 2022 14:23:23: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  0|0
+e818303
