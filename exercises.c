@@ -104,12 +104,8 @@ la cual asigna el valor a la posición i del vector v.
 */
 void asignarValor(Vector * v, int i, int valor)
 {
-   for (int j = 0; j < v->capacidad; j++)
-   {
-      v[i].datos[j]=valor;
-   }
-   
-   
+   v= (int*) malloc(sizeof(int));
+   v->datos[i]=valor;
 }
 /*
 Ejercicio 6.
