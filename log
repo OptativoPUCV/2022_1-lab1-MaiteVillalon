@@ -400,3 +400,14 @@ sá., 12 de mar. de 2022 12:21:57:
  tests:  3|4
 total_score: 30/70
 042eaeb
+sá., 12 de mar. de 2022 12:29:35: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:90:12: error: unused variable 'vectorNuevo' [-Werror=unused-variable]
+    Vector *vectorNuevo = (Vector*) calloc(n,sizeof(Vector));
+            ^~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+5af8667
