@@ -330,3 +330,9 @@ exercises.c:88:26: note: previous definition of 'n' was here
                           ^
 Compilation failed
 289660e
+sá., 12 de mar. de 2022 11:37:49: 
+ exercises.c | 2 --
+ 1 file changed, 2 deletions(-)
+ tests:  3|4
+total_score: 30/70
+052be20
