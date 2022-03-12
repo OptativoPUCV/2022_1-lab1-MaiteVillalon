@@ -317,3 +317,16 @@ exercises.c:91:5: error: 'vector2.capacidad' is used uninitialized in this funct
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1a4c202
+sá., 12 de mar. de 2022 11:36:50: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:91:8: error: 'n' redeclared as different kind of symbol
+    int n=vector2.capacidad;
+        ^
+exercises.c:88:26: note: previous definition of 'n' was here
+ Vector * crearVector(int n)
+                          ^
+Compilation failed
+289660e
