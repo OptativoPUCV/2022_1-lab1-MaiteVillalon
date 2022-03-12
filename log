@@ -306,3 +306,14 @@ vi., 11 de mar. de 2022 20:08:53:
  tests:  3|4
 total_score: 30/70
 945ba36
+sá., 12 de mar. de 2022 11:36:22: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+test.c: In function 'crearVector':
+exercises.c:91:5: error: 'vector2.capacidad' is used uninitialized in this function [-Werror=uninitialized]
+    n=vector2.capacidad;
+    ~^~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+1a4c202
