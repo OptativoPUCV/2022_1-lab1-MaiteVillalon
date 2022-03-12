@@ -553,3 +553,9 @@ sá., 12 de mar. de 2022 16:54:32:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 135f11b
+sá., 12 de mar. de 2022 20:50:42: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+ tests:  6|2
+total_score: 50/70
+68b8076
