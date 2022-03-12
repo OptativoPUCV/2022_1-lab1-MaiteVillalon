@@ -88,11 +88,12 @@ typedef struct {
 Vector * crearVector(int n)
 {
    Vector variable;
-   int n=variable.capacidad;
-   Vector *vectorNuevo = (Vector*) calloc(n,sizeof(Vector));
+   variable.capacidad=n;
+
+   variable.datos = (Vector*) calloc(n,sizeof(Vector));
    
 
-   return vectorNuevo;
+   return variable.datos;
 }
 
 /*
