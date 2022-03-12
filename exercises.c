@@ -90,7 +90,7 @@ Vector * crearVector(int n)
    Vector *variable = NULL;
    variable->capacidad=n;
 
-   variable->datos = (int*) calloc(variable->capacidad,sizeof(int));
+   variable->datos = (int*) calloc(n,sizeof(int));
    
 
    return variable;
